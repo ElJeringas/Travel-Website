@@ -1,0 +1,23 @@
+.section__container{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 5rem 1rem;
+}
+
+.section__subheader{
+    margin-bottom: 1rem;
+    font-family: var(--font-base);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-light);
+    text-align: center;
+}
+
+.section__header{
+    font-family: var(--font-base);
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 3.75rem;
+    color: var(--text-dark);
+    text-align: center;
+}
