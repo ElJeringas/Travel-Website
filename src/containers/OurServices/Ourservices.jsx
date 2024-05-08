@@ -12,7 +12,8 @@ const Ourservices = () => {
         <h3 className='section__subheader'>CATEGORY</h3>
         <h2 className='section__header'>We Offer Best Services</h2>
         <div className='service__grid'>
-            <Fade duration={1000}>
+        <Fade damping={0.7}>
+        <Fade duration={1000}>
                 <div className='service__card'>
                     <img src={weather} alt='service'/>
                     <h4>Calculated Weather</h4>
@@ -40,6 +41,7 @@ const Ourservices = () => {
                     <p>Excepteur aute consectetur ut commodo.</p>
                 </div>
             </Fade>
+        </Fade>
         </div>
     </section>
   )
