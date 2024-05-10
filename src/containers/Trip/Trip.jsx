@@ -17,7 +17,7 @@ const Trip = () => {
             <h3 className='section__subheader'>EASY & FAST</h3>
             <h2 className='section__header'>Book your next trip in 3 easy steps</h2>
 
-            <Fade cascade damping={0.3} direction='down' delay={50}>
+            <Fade cascade damping={0.3} direction='down' delay={50} triggerOnce>
                 <ul className='trip__list'>
                     <li>
                         <span>
