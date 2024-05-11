@@ -37,6 +37,7 @@ swiper-slide{
     padding: 2rem 2rem;
     border-radius: 2rem;
     height: 200px;
+    width: 300px;
 
 }
 
@@ -68,7 +69,6 @@ swiper-slide{
 .swiper-slide:nth-child(1n) {
     padding: 1rem 1.5rem;
     max-height: 400px;
-
     background-color: rgb(206, 17, 17);
     border-radius: 2rem;
   }
