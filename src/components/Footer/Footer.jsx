@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
       </div>
       <div className='footer__bar'>
-        Copyright ©️ 2024 Digital Canvas. All rights reserved
+        ©️ 2024 Digital Canvas.
       </div>
     </footer>
   )
